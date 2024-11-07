@@ -1,0 +1,767 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  font-style: normal;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+  height: 180px;
+  background-color: #282828;
+}
+
+.logo img{
+  width: 200px;
+  height: 200px;
+}
+
+.front{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-front{
+  margin-top: 60px;
+}
+
+.main-front h2{
+  font-size: 2rem;
+}
+.main-front h1{
+  font-size: 3.0rem;
+}
+
+.main-front h3{
+  font-size: 1.1rem;
+}
+
+.email-address{
+  margin-top: 20px;
+  display: flex;
+}
+
+.email-address input{
+  padding: 8px;
+  background-color: #28A0DA;
+  width: 100%;
+  border: none;
+  color: white;
+}
+
+.email-address img{
+  background-color: black;
+  height: 40px;
+  width: 50px;
+  padding: 5px;
+}
+
+.btn{
+  margin-left: -20px;
+  margin-top: 20px;
+}
+
+.btn a{
+  font-size: 1.2rem;
+  background-color: black;
+  color: white;
+  padding: 7px 20px;
+  text-decoration: none;
+}
+
+.btn img{
+  vertical-align: middle;
+  position: relative;
+  left: 23px;
+  top: -3px;
+  
+}
+
+#image1{
+  width: 60%;
+  margin-left: 0px;
+  height: 450px;
+  object-fit: contain;
+} 
+
+.content{
+  height: 180px;
+  background-color: #E3F6FF;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.content h3{
+  font-size: 1.6rem;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.content p{
+  font-size: 1rem;
+  margin: 0 250px;
+  padding-bottom: 20px;
+}
+
+.box1, .box2, .box3{
+  display: flex;
+}
+
+.box1 img{
+  width: 47%;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: -15px;
+}
+
+.box2 img{
+  width: 43%;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.box3 img{
+  width: 40%;
+  height: 300px;
+}
+
+.box-content1{
+  margin-top: 80px;
+}
+
+.box-content1 h5, .box-content2 h5, .box-content3 h5{
+  font-size: 4rem;
+   font-family: "Aboreto", system-ui;
+}
+
+.box-content1 p, .box-content2 p, .box-content3 p{
+  font-size: 1rem;
+}
+
+.box-content2{
+  margin-top: 90px;
+  margin-left: 50px;
+}
+
+.box-content3{
+  margin-top: 70px;
+}
+
+#image2{
+  width: 100%;
+  margin-top: 50px;
+  height: 450px;
+}
+
+.review{
+  display: inline-block;
+  position: relative;
+  font-size: 2rem;
+  color: white;
+}
+
+.underline{
+  display: flex;
+  justify-content: center;
+}
+
+.customer-review{
+  position: relative;
+  top: -200px;
+  margin-top: -200px;
+}
+
+.review::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 70%;
+  height: 1px;
+  background-color: white;
+  border-radius: 1px;
+}
+
+.review::before {
+  content: '•';
+  position: absolute;
+  bottom: -15px; /* Adjust the position of the dot */
+  right: 80px;
+  font-size: 20px; /* Adjust the size of the dot */
+  color: white;
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+
+.container1, .container2{
+  background-color:  rgba(255, 255, 255, 0.7);
+  height: 220px;
+  width: 34%;
+  border-radius: 15px;
+}
+
+.circle {
+  width: 50px; /* Diameter of the circle */
+  height: 50px; /* Diameter of the circle */
+  background-color: black; /* Black background color */
+  border-radius: 50%; /* Makes the div a circle */
+}
+
+.stars{
+  margin-left: 280px;
+  margin-top: 20px;
+}
+
+.stars img{
+  height: 20px;
+  width: 20px;
+}
+
+.good{
+  display: flex;
+  padding: 20px;
+  margin-top: -25px;
+}
+
+.name{
+  padding-left: 5px;
+}
+
+.place{
+  font-size: 0.6rem;
+}
+
+.acceptance{
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.customer-support{
+  display: flex;
+  justify-content: space-between;
+}
+
+.phone{
+  display: flex;
+  justify-content: center;
+}
+
+.phone img{
+  width: 30px;
+  height: 30px;
+}
+
+.wrapper {
+  text-align: center; /* Centers content horizontally */
+  display: table; /* Makes the wrapper behave like a table */
+  width: 100%; /* Full width */
+}
+
+.centered-text {
+  display: inline-block; /* Treat the <p> like an inline-block element */
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-align: center; /* Centers the text inside the <p> */
+  vertical-align: middle; /* Centers vertically in the wrapper */
+}
+
+
+.info{
+  margin-right: 400px;
+}
+
+.icon{
+  margin-left: 10px;
+}
+
+.icon img{
+  height: 25px;
+  width: 25px;
+}
+
+/* Responsive design */
+
+@media only screen and (max-width: 480px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
+  header{
+    height: 100%;
+    width: 100%;
+  }
+
+  main{
+    height: 100%;
+    width: 100%;
+  }
+
+  footer{
+    height: 100%;
+    width: 100%;
+    margin-top: -45px;
+  }
+
+  .logo{
+    height: 90px;
+  }
+
+  .logo img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .front {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  /* Allow items to wrap on smaller screens */
+    justify-content: flex-start; /* Center the content */
+    align-items: flex-start; /* Align items at the top */
+  }
+
+  .main-front {
+    margin-top: 20px;
+    text-align: center; /* Center text on smaller screens */
+    width: 100%; /* Ensure it takes up the full width */
+  }
+
+  .main-front h2 {
+    font-size: 1.2rem; /* Smaller font size for mobile */
+  }
+
+  .main-front h1 {
+    font-size: 2rem; /* Adjusted font size */
+    margin-top: -7px;
+  }
+
+  .main-front h3 {
+    font-size: 0.7rem; /* Smaller font size for mobile */
+    margin-top: -4px;
+  }
+
+  .email-address {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center; /* Center the email input and icon */
+  }
+
+  .email-address input {
+    width: 80%; /* Reduced width to fit better on small screens */
+    padding: 6px;
+    font-size: 0.7rem;
+    margin-left: 0;
+  }
+
+  .email-address img {
+    width: 34px;
+    height: 32px;
+    margin-left: -1px;
+  }
+
+  .btn {
+    margin-top: 15px;
+    width: 100%; /* Ensure button takes full width */
+    display: flex;
+    justify-content: center; /* Center the button */
+    height: 25px;
+  }
+
+  .btn a {
+    font-size: 0.7rem;
+    padding: 5px 18px;
+    text-align: center;
+  }
+
+  .btn img {
+    left: 15px; /* Adjust position of the icon */
+    top: -3px;
+    height: 30px;
+    width: 30px;
+  }
+
+  #image1 {
+    width: 100%; /* Full width of the screen */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px;
+  }
+
+  .content{
+    height: 110px;
+  }
+
+  .content h3 {
+    font-size: 1rem;
+    padding-top: 6px;
+    padding-bottom: 4px;
+}
+
+.content p{
+  font-size: 0.6rem;
+  margin: 0;
+}
+
+.box1 img {
+  width: 50%;
+  height: 140px;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+.box2 img {
+  width: 50%;
+  height: 140px;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+.box3 img {
+  width: 50%;
+  height: 140px;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+.box-content1 {
+  margin-top: 40px;
+}
+
+.box-content1 h5, .box-content2 h5, .box-content3 h5{
+  font-size: 1rem;
+}
+
+.box-content1 p, .box-content2 p, .box-content3 p{
+  font-size: 0.6rem;
+}
+
+.box-content2 {
+  margin-top: 45px;
+  margin-left: 12px;
+}
+
+
+.box-content3 {
+    margin-top: 44px;
+}
+
+.review{
+  font-size: 1.6rem;
+}
+
+.review::before{
+  right: 64px;
+}
+
+.container1, .container2{
+  height: 250px;
+  width: 46%;
+}
+
+.stars {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.circle{
+  width: 40px;
+  height: 35px;
+}
+
+.good{
+  margin-top: -15px;
+}
+
+.name h3{
+  font-size: 0.8rem;
+}
+
+.acceptance {
+  margin-left: 8px;
+  font-size: 15px;
+}
+
+.centered-text{
+  font-size: 0.8rem;
+}
+
+.phone p{
+  font-size: 0.8rem;
+}
+
+.phone img{
+  height: 20px;
+  width: 20px;
+}
+
+.icon img{
+  width: 15px;
+  height: 15px;
+  margin-top: 7px;
+}
+
+.icon{
+  margin-left: 5px;
+}
+
+.info{
+  margin-right: 10px;
+}
+
+.info p{
+  font-size: 8px;
+  margin-top: 10px;
+}
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
+  header{
+    height: 100%;
+    width: 100%;
+  }
+
+  main{
+    height: 100%;
+    width: 100%;
+  }
+
+  footer{
+    height: 100%;
+    width: 100%;
+    margin-top: -45px;
+  }
+
+  .logo{
+    height: 90px;
+  }
+
+  .logo img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .front {
+    display: flex;
+    justify-content: flex-start;
+}
+
+  .main-front {
+    margin-top: 20px;
+    margin-left: auto;
+  }
+
+  .main-front h2 {
+    font-size: 1rem; /* Smaller font size for mobile */
+  }
+
+  .main-front h1 {
+    font-size: 2rem; /* Adjusted font size */
+    margin-top: -7px;
+  }
+
+  .main-front h3 {
+    font-size: 0.5rem; /* Smaller font size for mobile */
+    margin-top: -4px;
+  }
+
+  .email-address input{
+    padding: 6px;
+    font-size: 0.6rem;
+  }
+
+
+
+  .email-address img {
+    width: 34px;
+    height: 32px;
+    margin-left: -1px;
+  }
+
+  .btn {
+    margin-top: 15px;
+    width: 100%; /* Ensure button takes full width */
+    display: flex;
+    justify-content: center; /* Center the button */
+    height: 25px;
+  }
+
+  .btn a {
+    font-size: 0.7rem;
+    padding: 5px 18px;
+    text-align: center;
+  }
+
+  .btn img {
+    left: 15px; /* Adjust position of the icon */
+    top: -3px;
+    height: 30px;
+    width: 30px;
+  }
+
+  #image1 {
+    width: 60%; /* Full width of the screen */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px;
+  }
+
+  .content{
+    height: 150px;
+    margin-top: 20px;
+  }
+
+  .content h3 {
+    font-size: 1rem;
+    padding-top: 20px;
+    padding-bottom: 4px;
+}
+
+.content p{
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.box1 img {
+  width: 50%;
+  height: 140px;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+.box2 img {
+  width: 50%;
+  height: 140px;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+.box3 img {
+  width: 50%;
+  height: 140px;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+.box-content1 {
+  margin-top: 40px;
+}
+
+.box-content1 h5, .box-content2 h5, .box-content3 h5{
+  font-size: 1rem;
+}
+
+.box-content1 p, .box-content2 p, .box-content3 p{
+  font-size: 0.7rem;
+}
+
+.box-content2 {
+  margin-top: 45px;
+  margin-left: 12px;
+}
+
+
+.box-content3 {
+    margin-top: 44px;
+}
+
+.review{
+  font-size: 1.6rem;
+}
+
+.review::before{
+  right: 64px;
+}
+
+.container1, .container2{
+  height: 250px;
+  width: 46%;
+}
+
+.stars {
+  margin-left: 0;
+  text-align: right;
+}
+
+.stars img{
+  width: 25px;
+  height: 25px;
+}
+
+.circle{
+  width: 50px;
+  height: 50px;
+}
+
+.good{
+  margin-top: -15px;
+}
+
+.name{
+  margin-top: 3px;
+}
+
+.name h3{
+  font-size: 0.8rem;
+}
+
+.acceptance {
+  margin-left: 8px;
+  font-size: 15px;
+  margin-top: 4px;
+}
+
+.centered-text{
+  font-size: 0.8rem;
+}
+
+.phone p{
+  font-size: 0.9rem;
+}
+
+.phone img{
+  height: 25px;
+  width: 25px;
+}
+
+.icon img{
+  width: 25px;
+  height: 25px;
+  margin-top: 7px;
+}
+
+.icon{
+  margin-left: 5px;
+}
+
+.info{
+  margin-right: 0;
+  margin-top: 18px;
+}
+
+.info p{
+  font-size: 11px;
+  margin-right: 0;
+  text-align: center;
+}
+
+}
+
+
+
+
+
+
