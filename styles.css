@@ -77,7 +77,6 @@
   position: relative;
   left: 23px;
   top: -3px;
-  
 }
 
 #image1{
@@ -85,7 +84,12 @@
   margin-left: 0px;
   height: 450px;
   object-fit: contain;
+  transition: transform 0.3s ease; 
 } 
+
+#image1:hover{
+  transform: scale(1.1);
+}
 
 .content{
   height: 180px;
@@ -115,17 +119,32 @@
   height: 250px;
   margin-top: 50px;
   margin-left: -15px;
+  transition: transform 0.3s ease; 
+}
+
+.box1 img:hover{
+  transform: scale(1.1);
 }
 
 .box2 img{
   width: 43%;
   height: 300px;
   margin-top: 50px;
+  transition: transform 0.3s ease; 
+}
+
+.box2 img:hover{
+  transform: scale(1.1);
 }
 
 .box3 img{
   width: 40%;
   height: 300px;
+  transition: transform 0.3s ease; 
+}
+
+.box3 img:hover{
+  transform: scale(1.1);
 }
 
 .box-content1{
@@ -148,6 +167,7 @@
 
 .box-content3{
   margin-top: 70px;
+  margin-left: 25px;
 }
 
 #image2{
@@ -206,6 +226,12 @@
   height: 220px;
   width: 34%;
   border-radius: 15px;
+  transition: transform 0.3s ease; 
+}
+
+.container1:hover, .container2:hover{
+  transform: scale(1.1);
+
 }
 
 .circle {
@@ -521,6 +547,7 @@
   font-size: 8px;
   margin-top: 10px;
 }
+
 }
 
 
@@ -562,7 +589,7 @@
 
   .main-front {
     margin-top: 20px;
-    margin-left: auto;
+    margin-left: 15px;
   }
 
   .main-front h2 {
@@ -583,8 +610,6 @@
     padding: 6px;
     font-size: 0.6rem;
   }
-
-
 
   .email-address img {
     width: 34px;
@@ -697,8 +722,8 @@
 }
 
 .stars img{
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
 }
 
 .circle{
@@ -760,6 +785,252 @@
 
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+header{
+  height: 100%;
+  width: 100%;
+}
+
+main{
+  height: 100%;
+  width: 100%;
+}
+
+footer{
+  height: 100%;
+  width: 100%;
+  /* margin-top: -45px; */
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.logo{
+  height: 90px;
+}
+
+.logo img{
+  width: 100px;
+  height: 100px;
+}
+
+.front {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main-front {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.main-front h2 {
+  font-size: 1.4rem; /* Smaller font size for mobile */
+}
+
+.main-front h1 {
+  font-size: 3rem; /* Adjusted font size */
+}
+
+.main-front h3 {
+  font-size: 0.8rem; /* Smaller font size for mobile */
+}
+
+.email-address input{
+  padding: 6px;
+  font-size: 0.7rem;
+}
+
+.email-address img {
+  width: 34px;
+  height: 32px;
+  margin-left: -1px;
+}
+
+.btn {
+  margin-top: 15px;
+  width: 100%; /* Ensure button takes full width */
+  display: flex;
+  justify-content: center; /* Center the button */
+  height: 25px;
+}
+
+.btn a {
+  font-size: 0.7rem;
+  padding: 5px 18px;
+  text-align: center;
+}
+
+.btn img {
+  left: 15px; /* Adjust position of the icon */
+  top: -3px;
+  height: 30px;
+  width: 30px;
+}
+
+#image1 {
+  width: 68%; /* Full width of the screen */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 20px;
+}
+
+.content{
+  height: 150px;
+  margin-top: 25px;
+}
+
+.content h3 {
+  font-size: 1.5rem;
+  padding-top: 20px;
+  padding-bottom: 4px;
+}
+
+.content p{
+font-size: 0.9rem;
+margin: 0;
+}
+
+.box-content1 h5, .box-content2 h5, .box-content3 h5{
+  font-size: 2rem;
+}
+
+.box-content1 p, .box-content2 p, .box-content3 p{
+  font-size: 1rem;
+}
+
+.box2 img{
+  margin-top: 5px;
+}
+
+.box-content2{
+  margin-top: 65px;
+}
+
+.box3 img{
+  margin-top: -20px;
+}
+
+.box-content3{
+  margin-top: 35px;
+}
+
+.stars {
+  margin-left: 0;
+  text-align: right;
+}
+
+.stars img{
+  width: 20px;
+  height: 20px;
+}
+
+.circle{
+  width: 50px;
+  height: 50px;
+}
+
+.icon{
+  margin-top: 15px;
+}
+
+.info{
+  margin-right: 0;
+  margin-top: 15px;
+}
+
+.info p{
+  margin-right: 0;
+  text-align: center;
+}
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+
+  body{
+    overflow-x: hidden;
+  }
+
+
+  header{
+    height: 100%;
+    width: 100%;
+  }
+  
+  main{
+    height: 100%;
+    width: 100%;
+  }
+  
+  footer{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .logo{
+    height: 90px;
+  }
+  
+  .logo img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .main-front{
+    margin-left: 20px;
+  }
+
+  .content{
+    height: 150px;
+  }
+  
+  .content h3 {
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 4px;
+  }
+  
+  .content p{
+  font-size: 0.9rem;
+  margin: 0 200px;
+  }
+
+  .stars {
+    margin-left: 0;
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+
+  .box-content1 h5, .box-content2 h5, .box-content3 h5{
+    font-size: 2rem;
+  }
+
+  .info{
+    margin: 0 245px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+
+  header{
+    height: 100%;
+    width: 100%;
+  }
+  
+  main{
+    height: 100%;
+    width: 100%;
+  }
+  
+ 
+
+}
 
 
 
