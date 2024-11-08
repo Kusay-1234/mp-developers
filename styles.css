@@ -121,7 +121,7 @@ input::placeholder {
   width: 47%;
   height: 250px;
   margin-top: 50px;
-  margin-left: -15px;
+  margin-left: -10px;
   transition: transform 0.3s ease; 
 }
 
@@ -212,7 +212,7 @@ input::placeholder {
   content: '•';
   position: absolute;
   bottom: -15px; /* Adjust the position of the dot */
-  right: 80px;
+  right: 84px;
   font-size: 20px; /* Adjust the size of the dot */
   color: white;
 }
@@ -281,6 +281,7 @@ input::placeholder {
 .phone{
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .phone img{
@@ -292,6 +293,7 @@ input::placeholder {
   text-align: center; /* Centers content horizontally */
   display: table; /* Makes the wrapper behave like a table */
   width: 100%; /* Full width */
+  margin-bottom: 8px;
 }
 
 .centered-text {
@@ -303,18 +305,19 @@ input::placeholder {
   vertical-align: middle; /* Centers vertically in the wrapper */
 }
 
-
-.info{
-  margin-right: 400px;
-}
-
 .icon{
   margin-left: 10px;
+}
+
+.info p{
+  text-align: center;
+  margin-top: 10px;
 }
 
 .icon img{
   height: 25px;
   width: 25px;
+  margin-left: 7px;
 }
 
 /* Responsive design */
@@ -481,6 +484,7 @@ input::placeholder {
 
 .box-content3 {
     margin-top: 44px;
+    margin-left: 9px;
 }
 
 .review{
@@ -488,7 +492,7 @@ input::placeholder {
 }
 
 .review::before{
-  right: 64px;
+  right: 66px;
 }
 
 .container1, .container2{
@@ -533,8 +537,8 @@ input::placeholder {
 }
 
 .icon img{
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   margin-top: 7px;
 }
 
@@ -547,8 +551,7 @@ input::placeholder {
 }
 
 .info p{
-  font-size: 8px;
-  margin-top: 10px;
+  font-size: 11px;
 }
 
 }
@@ -704,6 +707,7 @@ input::placeholder {
 
 .box-content3 {
     margin-top: 44px;
+    margin-left: 12px;
 }
 
 .review{
@@ -711,7 +715,7 @@ input::placeholder {
 }
 
 .review::before{
-  right: 64px;
+  right: 66px;
 }
 
 .container1, .container2{
@@ -722,6 +726,7 @@ input::placeholder {
 .stars {
   margin-left: 0;
   text-align: right;
+  margin-right: 8px;
 }
 
 .stars img{
@@ -781,7 +786,7 @@ input::placeholder {
 }
 
 .info p{
-  font-size: 11px;
+  font-size: 12px;
   margin-right: 0;
   text-align: center;
 }
@@ -902,6 +907,10 @@ margin: 0;
   font-size: 1rem;
 }
 
+.box1 img{
+  margin-left: -7px;
+}
+
 .box2 img{
   margin-top: 5px;
 }
@@ -921,6 +930,7 @@ margin: 0;
 .stars {
   margin-left: 0;
   text-align: right;
+  margin-right: 8px;
 }
 
 .stars img{
@@ -946,7 +956,6 @@ margin: 0;
   margin-right: 0;
   text-align: center;
 }
-
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
@@ -1003,8 +1012,13 @@ margin: 0;
   .stars {
     margin-left: 0;
     text-align: right;
+    margin-right: 8px;
   }
 
+  .icon img{
+    width: 35px;
+    height: 35px;
+  }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
@@ -1033,9 +1047,6 @@ margin: 0;
     height: 100%;
     width: 100%;
   }
-  
- 
-
 }
 
 
